@@ -372,9 +372,9 @@ class VK_Database:
             self.conn.commit()
 
 ### Подтягивание токенов и параметров БД
-with open(r"C:\Users\Levka-Levka\Desktop\Python\VKinder\VK_group_token.txt") as file:
+with open(r"...\VK_group_token.txt") as file:
     group_token = file.read()
-with open(r"C:\Users\Levka-Levka\Desktop\Python\VKinder\VK_personal_token.txt") as file:
+with open(r"...\VK_personal_token.txt") as file:
     personal_token = file.read()
 DB = "VKinder"
 DB_user = "postgres"
