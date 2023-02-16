@@ -382,9 +382,10 @@ with open(r"...\VK_personal_token.txt") as file:
 DB = "Вставить название пустой БД"
 DB_user = "Вставить юзера пустой БД"
 DB_password = "Вставить пароль от пустой БД"
+group_id = "Вставить id сообщества"
 
 ###Инициализация экземпляров класса
-Bot = VK_Bot(group_token, 217451624, "server1")
+Bot = VK_Bot(group_token, group_id, "server1")
 Search_engine = VK_Bot_personal(personal_token)
 Database_engine = VK_Database(DB, DB_user, DB_password)
 Database_engine.start()
