@@ -376,15 +376,12 @@ with open(r"...\VK_group_token.txt") as file:
     group_token = file.read()
 with open(r"...\VK_personal_token.txt") as file:
     personal_token = file.read()
-DB = "VKinder"
-DB_user = "postgres"
-DB_password = "61483196"
 
 # group_token = "Вставить групповой токен ВК"
 # personal_token = "Вставить персональный токен ВК"
-# DB = "Вставить название пустой БД"
-# DB_user = "Вставить юзера пустой БД"
-# DB_password = "Вставить пароль от пустой БД"
+DB = "Вставить название пустой БД"
+DB_user = "Вставить юзера пустой БД"
+DB_password = "Вставить пароль от пустой БД"
 
 ###Инициализация экземпляров класса
 Bot = VK_Bot(group_token, 217451624, "server1")
