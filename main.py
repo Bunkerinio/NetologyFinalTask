@@ -219,14 +219,14 @@ class VK_Bot:
 
 
 ### Подтягивание токенов и параметров БД
-with open(r"C:\Users\Levka-Levka\Desktop\Python\VKinder\VK_group_token.txt") as file:
+with open(r"...\VK_group_token.txt") as file:
     group_token = file.read()
-with open(r"C:\Users\Levka-Levka\Desktop\Python\VKinder\VK_personal_token.txt") as file:
+with open(r"...\VK_personal_token.txt") as file:
     personal_token = file.read()
-DB = "VKinder"
-DB_user = "postgres"
-DB_password = "61483196"
-group_id = 217451624
+DB = 
+DB_user = 
+DB_password = 
+group_id = 
 
 # group_token = "Вставить групповой токен ВК"
 # personal_token = "Вставить персональный токен ВК"
